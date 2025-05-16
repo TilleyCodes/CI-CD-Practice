@@ -1,0 +1,24 @@
+{
+  "name": "saturday",
+  "version": "1.0.0",
+  "description": "Final class that includes practicing docker, test, github actions and deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TilleyCodes/CI-CD-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TilleyCodes/CI-CD-Practice/issues"
+  },
+  "homepage": "https://github.com/TilleyCodes/CI-CD-Practice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
