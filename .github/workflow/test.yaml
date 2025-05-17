@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Setup Actions for our repository
@@ -20,10 +20,14 @@ jobs:
           node-version: latest
 
       - name: Install Dependencies
-        run: npm Install
-      
-      - name: Rune Tests
+        run: npm install
+
+      - name: Run Tests
         run: npm test
+
+      
+
+        
 
       
 
